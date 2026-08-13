@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-white">
@@ -17,12 +18,12 @@ export default function Home() {
           </p>
 
           <div className="mt-10 flex items-center gap-4">
-            <a
-              href="#work"
+            <Link
+              href="/work"
               className="inline-flex min-h-11 items-center border border-white/20 px-5 text-sm text-white transition-colors duration-200 hover:border-white/50 hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               Ver trabalho
-            </a>
+            </Link >
 
             <span className="font-mono text-[0.6rem] uppercase tracking-[0.16em] text-white/30">
               01 / 05
