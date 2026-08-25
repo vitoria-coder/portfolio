@@ -5,7 +5,7 @@ import ContactSection from "@/src/components/home/ContactSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-background text-foreground">
+    <main className="min-h-screen bg-background text-foreground">
       <HomeHero />
       <FeaturedWork />
       <ProfileSection />
