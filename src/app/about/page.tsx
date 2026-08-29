@@ -63,7 +63,7 @@ export default function AboutPage() {
             <div className="max-w-3xl">
               <h2
                 id="profile-title"
-                className="text-2xl font-medium leading-[1.25] tracking-[-0.03em] text-white sm:text-3xl sm:leading-[1.3]"
+                className="text-2xl font-medium leading-tight tracking-[-0.03em] text-white sm:text-3xl sm:leading-[1.3]"
               >
                 Engenharia de software como uma combinação entre estrutura,
                 clareza e experiência.

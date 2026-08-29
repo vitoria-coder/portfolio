@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     default: "Vitória Sousa — Software Engineer",
     template: "%s | Vitória Sousa",
   },
+  icons: {
+    icon: '/favicon/portfolio-symbol.svg',
+  },
   description:
     "Portfólio profissional de Vitória Sousa, estudante de Ciência da Computação e profissional da área de Tecnologia da Informação.",
   openGraph: {
